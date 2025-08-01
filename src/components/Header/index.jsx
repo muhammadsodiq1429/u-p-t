@@ -11,7 +11,7 @@ const Header = () => {
         </Link>
         <ul className="flex gap-6 uppercase tracking-widest">
           {LINKS.map((link) => (
-            <li>
+            <li key={link.id}>
               <NavLink to={link.path}>{link.name}</NavLink>
             </li>
           ))}

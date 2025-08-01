@@ -1,8 +1,4 @@
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { Route, Routes } from "react-router";
 import Home from "./pages/Home/Home";
 import Posts from "./pages/Posts/Posts";
 import Layout from "./pages/Layout/Layout";
